@@ -170,6 +170,9 @@ TARGET_PER_MGR_ENABLED := true
 TARGET_USES_INTERACTION_BOOST := true
 TARGET_USES_NON_LEGACY_POWERHAL := true
 
+# Props
+TARGET_SYSTEM_PROP += device/xiaomi/msm8953-common/system.prop
+
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
 
