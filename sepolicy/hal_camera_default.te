@@ -1,1 +1,6 @@
 allow hal_camera_default camera_data_file:sock_file write;
+allow hal_camera_default persist_camera_prop:file { read };
+allow hal_camera_default persist_camera_prop:file { open };
+allow hal_camera_default persist_camera_prop:file { getattr };
+allow hal_camera_default apexd_prop:file { open };
+allow hal_camera_default apexd_prop:file { getattr };
